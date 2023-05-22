@@ -4,9 +4,9 @@ a = int(input('Enter First Number '))
 b = int(input('Enter Second Number '))
 
 if (a > b):
- print('First number is greater')
+ print('First number is greatest')
 elif (b > a):
- print('Second number is greater')
+ print('Second number is greatest')
 else:
  print('Both numbers are equal')
 
@@ -18,9 +18,9 @@ b = int(input('Enter Second Number '))
 c = int(input('Enter Third Number '))
 
 if ((a > b) & (a > c)):
- print('First number is greater')
+ print('First number is greatest')
 elif ((b > a) & (b > c)):
- print('Second number is greater')
+ print('Second number is greatest')
 elif ((a == b) & (a > c)):
  print('First and second number are equal and greater than third') 
 elif ((b == c) & (b > a)):
@@ -28,4 +28,4 @@ elif ((b == c) & (b > a)):
 elif ((a == c) & (a > b)):
  print('First and third number are equal and greater than second')  
 else:
- print('Third number is greater')
+ print('Third number is greatesr')
