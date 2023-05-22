@@ -28,4 +28,4 @@ elif ((b == c) & (b > a)):
 elif ((a == c) & (a > b)):
  print('First and third number are equal and greater than second')  
 else:
- print('Third number is greatesr')
+ print('Third number is greatest')
