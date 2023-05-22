@@ -26,6 +26,8 @@ elif ((a == b) & (a > c)):
 elif ((b == c) & (b > a)):
  print('Second and third number are equal and greater than first')  
 elif ((a == c) & (a > b)):
- print('First and third number are equal and greater than second')  
+ print('First and third number are equal and greater than second')
+elif (a == b == c):
+ print('All three numbers are equal')
 else:
  print('Third number is greatest')
